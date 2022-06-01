@@ -55,6 +55,10 @@ li {
    padding: 24px;
 }
 
+.nav__link:hover {
+   text-decoration: underline;
+}
+
 .nav__link--signup{
    border: 12px solid #6415FF;
    background: #6415FF;
@@ -63,5 +67,16 @@ li {
    padding: 0.75rem 1rem;
    border-bottom-width: 0px;
    border-top-width: 0px;
+}
 
+.nav__link--signup:hover{
+   text-decoration: none;
+}
+
+#landing {
+   background-color: #4e4b4b;
+}
+
+header {
+   height: calc(100vh - 80px);
 }
