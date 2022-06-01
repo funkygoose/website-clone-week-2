@@ -11,6 +11,10 @@ nav {
    display: flex;
 }
 
+.purple {
+   color: #6415FF;
+}
+
 .nav__title{
    color: #243E63;
    text-decoration: none;
@@ -21,6 +25,7 @@ nav {
    font-weight: 900;
 
 }
+
 
 .nav__container {
    width: 100%;
@@ -45,6 +50,10 @@ ul {
 
 li {
    list-style-type: none;
+}
+
+img {
+   width: 100%;
 }
 
 .nav__link {
@@ -74,9 +83,37 @@ li {
 }
 
 #landing {
-   background-color: #4e4b4b;
+   background-color: #ffffff;
 }
 
 header {
    height: calc(100vh - 80px);
 }
+
+.header__container {
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+}
+
+.header__container--para{
+   padding: 80px;
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   
+}
+figure {
+   width: 60%;
+   display: flex;
+}
+
+ h1{
+    font-weight: 700;
+    color: #243E63;
+    line-height: 1.25;
+    font-size: 40px;
+ }
