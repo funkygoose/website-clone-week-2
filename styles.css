@@ -11,17 +11,20 @@ nav {
    display: flex;
 }
 
-p{
-   padding-bottom: 20px;
+p {
+   padding-bottom: 30px;
    padding-top: 20px;
    font-weight: lighter;
+   font-size: 1.02rem;
+   line-height: 1.4;
+
 }
 
 .purple {
    color: #6415FF;
 }
 
-.nav__title{
+.nav__title {
    color: #243E63;
    text-decoration: none;
    display: flex;
@@ -108,8 +111,9 @@ header {
 }
 
 .header__container--para{
-   padding: 100px;
-   width: 40%;
+   padding: 25px;
+   padding-top: 138px;
+   width: 41%;
    display: flex;
    flex-direction: column;
 }
@@ -119,6 +123,8 @@ header {
    width: fit-content;
    border-radius: 50px;
    padding:5px;
+   transform: scale(1.4);
+   margin-left: 55px;
 }
 
 button{
@@ -139,6 +145,7 @@ input {
 
 .header__img--photo {
    width: 100%;
+   padding-top: 50px;
 }
 
 figure {
@@ -150,6 +157,8 @@ h1{
     font-weight: 700;
     color: #243E63;
     line-height: 1.25;
-    font-size: 40px;
+    font-size: 50px;
+    line-height: 1.25;
+
 }
  
