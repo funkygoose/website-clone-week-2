@@ -4,11 +4,71 @@
    margin: 0;
    box-sizing: border-box;
    font-family: 'Roboto', sans-serif;
+
 }
+
+/* NAVAGATION MENU */
 
 nav {
    height: 80px;
    display: flex;
+}
+
+.nav__container {
+   width: 100%;
+   max-width: 1300px;
+   padding: 0 24px;
+   padding-top: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+}
+
+.nav__title {
+   color: #243E63;
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   font-size: 200%;
+   font-weight: 900;
+   
+   
+}
+
+.nav__link {
+   margin-left: 16px;
+   text-decoration: none;
+   font-size: 1rem;
+   color: #243E63;
+   padding: 24px;
+   font-weight: 900;
+
+}
+
+.nav__link:hover {
+   text-decoration: underline;
+}
+
+.nav__link--signup:hover{
+   text-decoration: none;
+}
+.nav__link--signup{
+   border: 12px solid #6415FF;
+   background: #6415FF;
+   border-radius: 9999px;
+   color: aliceblue;
+   padding: 0.75rem 1rem;
+   border-bottom-width: 0px;
+   border-top-width: 0px;
+}
+
+.logo__title {
+   padding-left: 1rem;
+  font-weight: 900;
+  font-size: 30px;
+  color: #243E63;
 }
 
 p {
@@ -32,33 +92,9 @@ h2 {
    color: #6415FF;
 }
 
-.nav__title {
-   color: #243E63;
-   text-decoration: none;
-   display: flex;
-   justify-content: center;
-   align-items:center;
-   font-size: 200%;
-   font-weight: 900;
-
-}
-
-
-.nav__container {
-   width: 100%;
-   max-width: 1200px;
-   padding: 0 24px;
-   padding-top: 5%;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   margin: 0 auto;
-}
-
 .logo {
-   width: 8vh;
-   margin: 10%;
-   
+   width: 40px;
+   margin: 0 auto;  
 }
 
 ul {
@@ -69,37 +105,11 @@ li {
    list-style-type: none;
 }
 
-img {
+.logo2 {
    width: 100%;
 }
 
-
-
-.nav__link {
-   margin-left: 16px;
-   text-decoration: none;
-   font-size: 20px;
-   color: #243E63;
-   padding: 24px;
-}
-
-.nav__link:hover {
-   text-decoration: underline;
-}
-
-.nav__link--signup{
-   border: 12px solid #6415FF;
-   background: #6415FF;
-   border-radius: 9999px;
-   color: aliceblue;
-   padding: 0.75rem 1rem;
-   border-bottom-width: 0px;
-   border-top-width: 0px;
-}
-
-.nav__link--signup:hover{
-   text-decoration: none;
-}
+/* HEADER CONTAINER */
 
 #landing {
    background-color: #ffffff;
