@@ -37,6 +37,11 @@ h2 {
    color: #6415FF;
 }
 
+.purplee {
+   color: #6415FF;
+   padding-left: 12px;
+}
+
 .logo {
    width: 40px;
    margin: 0 auto;  
@@ -231,11 +236,47 @@ figure {
   
 }
 
+.section__title {
+   font-weight: 600;
+   text-transform: uppercase;  
+   display: flex;
+   justify-content: center;
+   text-align: center; 
+   color: #6415FF;
+   font-size: 20px;
+   letter-spacing: 0.1rem;
+}
+
+.section__title--sub {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   padding-top: 8px;
+   padding-bottom: 1.5rem; 
+   text-transform: none;
+   font-weight: 900;
+   font-size: 4rem;
+   color: #243E63;  
+   opacity: calc(1); 
+   
+}
+
+.section__para {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 16rem;
+   font-weight: 400;
+   opacity: calc(0.5);
+}
+
 .features__para {
-  
+  display: flex;
+    
+   
 }
 
 .features__subtitle {
+   display: flex;
    text-align: right;
    
 }
