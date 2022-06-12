@@ -211,10 +211,6 @@ figure {
 }
 
 
-.container {
-   padding: 56px 0;
-}
-
 .row{
    width: 100%;
    max-width: 1250px;
@@ -223,13 +219,34 @@ figure {
 
 .features__wrapper {
    display: flex;
+   flex-wrap: wrap;
    
 }
  
 .container {
    padding: 0 24px;
    width:calc(100% / 3);
+   padding: 56px 0;
    display: flex;
-   flex-wrap: wrap;
   
+}
+
+.features__para {
+  
+}
+
+.features__subtitle {
+   text-align: right;
+   
+}
+
+.features__img {
+   border: 1px solid #969696;
+   border-radius: 9999px;
+   width: 150px;
+   height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
 }
