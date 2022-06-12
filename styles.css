@@ -219,25 +219,14 @@ figure {
 .row{
    width: 100%;
    max-width: 1250px;
+   padding-top: 64px;
+   padding-bottom: 88px;
    margin: 0 auto;
-}
-
-.features__wrapper {
-   display: flex;
-   
-}
- 
-.container {
-   padding: 0 24px;
-   width:calc(100% / 3);
-   padding: 56px 0;
 }
 
 .section__title {
    font-weight: 600;
    text-transform: uppercase;  
-   display: flex;
-   justify-content: center;
    text-align: center; 
    color: #6415FF;
    font-size: 20px;
@@ -245,8 +234,7 @@ figure {
 }
 
 .section__title--sub {
-   display: flex;
-   justify-content: center;
+   
    text-align: center;
    padding-top: 8px;
    padding-bottom: 1.5rem; 
@@ -259,30 +247,53 @@ figure {
 }
 
 .section__para {
-   display: flex;
-   flex-wrap: wrap;
+   
    padding: 0 16rem;
    font-weight: 400;
    opacity: calc(0.5);
 }
 
-.features__para {
-  display: flex;
-    
+
+/* 
+
+
+
+*/
+
+
+.features__wrapper {
+   display: flex;
+   flex-flow: row wrap;
+   padding-top: 88px;
+   
+}
+ 
+.container {
+   padding: 0 24px;
+   width:calc(100% / 3);
+   display: flex;
    
 }
 
+
+.features__para {
+  margin-right: 88px;
+}
+
 .features__subtitle {
-   display: flex;
-   text-align: right;
    
+   
+}
+
+.features__para--container {
+   padding-left: 24px;
 }
 
 .features__img {
    border: 1px solid #969696;
    border-radius: 9999px;
-   width: 150px;
-   height: 70px;
+   width: 100px;
+   height: 60px;
    display: flex;
    justify-content: center;
    align-items: center;
