@@ -224,7 +224,6 @@ figure {
 
 .features__wrapper {
    display: flex;
-   flex-wrap: wrap;
    
 }
  
@@ -232,8 +231,6 @@ figure {
    padding: 0 24px;
    width:calc(100% / 3);
    padding: 56px 0;
-   display: flex;
-  
 }
 
 .section__title {
