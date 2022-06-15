@@ -173,7 +173,7 @@ header {
    margin-left: 60px;
 }
 
-button{
+.header__button{
    border: 15px solid #6415FF;
     background: #6415FF;
     border-radius: 9999px;
@@ -316,3 +316,74 @@ figure {
    align-items: center;
    
 }
+
+
+/* 
+
+QUALITY WORK
+
+*/
+
+.featuredd {
+  display: flex;
+  flex-direction: row;
+  transform: scale(1.03);  
+}
+
+.quality__img {
+   width: 100%;
+   border: 1px solid #7c8ba167;
+   border-radius: 4px;
+   display: flex;
+   justify-content: center;
+   align-items: center
+;
+}
+
+.quality__header {
+width: 50%;
+padding-right: 4rem;
+}
+
+.quality__work {
+width: 50%;
+color: #6415FF;
+text-transform: uppercase;
+padding-bottom: 20px;
+font-size: 1rem;
+letter-spacing: 0.1rem;
+}
+
+.quality__button {
+    border: 15px solid #6415FF;
+    background: #6415FF;
+    border-radius: 9999px;
+    color: aliceblue;
+    padding: 12px 12px;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    width: 26%;
+    
+    
+}
+
+.quality__design {
+   font-size: 3rem;
+   color: #243E63;
+   font-weight: 900;
+
+}
+
+.quality__paragraph {
+   line-height: 1.8rem;
+   padding: 0 ;
+   padding-top: 1rem;
+   padding-bottom: 2rem;
+   color: #7c8ba1;
+   font-weight: 400;
+}
+
+
+
