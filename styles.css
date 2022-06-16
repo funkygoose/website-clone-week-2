@@ -385,5 +385,70 @@ letter-spacing: 0.1rem;
    font-weight: 400;
 }
 
+/*
+
+STEPS 
+
+*/
+
+.featureddd{
+display: flex;
+align-items: center;
+}
+
+.steps__img {
+width: 50%;
+transform: scale(0.9);
+display: flex;
+justify-content: center;
+}
+
+.steps__outer{
+   margin: 0 auto;
+   width: 50%;
+   padding-left: 10%;
+}
+
+.steps__inner {
+   padding-top: 2rem;
+}
+
+
+ul{
+   display: flex;
+   flex-direction: column;
+}
+
+li {
+   display: flex;
+   flex-direction: row;
+   
+}
+
+.steps__title {
+   color: #6415FF;
+}
+
+.title__bottom{
+   color: #243E63;
+   font-size: 3rem;
+   font-weight: 900;
+}
+
+.number1 {
+   padding-right: 1rem;
+}
+
+.steps{
+
+}
+
+.steps__register{
+
+}
+
+.steps__para{
+
+}
 
 
