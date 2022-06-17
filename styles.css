@@ -406,7 +406,8 @@ justify-content: center;
 .steps__outer{
    margin: 0 auto;
    width: 50%;
-   padding-left: 3rem;
+   padding-left: 4rem;
+   transform: scale(0.98);
 }
 
 .steps__inner {
@@ -415,12 +416,12 @@ justify-content: center;
 }
 
 
-ul{
+.steps__list {
    display: flex;
    flex-direction: column;
 }
 
-li {
+.steps__list--order {
    display: flex;
    flex-direction: row;
    
@@ -446,7 +447,7 @@ li {
    font-weight: 600;
    line-height: 1;
    opacity: 0.8;
-   color: #beb8b8;
+   color: #cbd5e0;
 }
 
 .steps{
@@ -462,6 +463,14 @@ li {
 
 .steps__para{
    opacity: 0.7;
+   padding: 0;
+   padding-top: 1rem;
+   padding-bottom: 2rem;
+   line-height: 2rem;
+   font-size: 0.9rem;
+   font-weight:500;
+   color: #243E63;
+
 }
 
 
