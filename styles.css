@@ -510,28 +510,33 @@ align-items: center;
    color: #7c8ba1;
 }
 
-.plans {
+.three__plans{
+   display: flex;
+   flex-wrap: wrap;
+   
 
 }
-
+/*
+.plans {
+   display: flex;
+   flex-wrap: wrap;
+}
+*/
 .plan__decor {
 
 }
 
-.plan__1 {
-   
-}
-
-.plan__2 {
-
-}
-
-.plan__3 {
-
+.plan__one {
+   width: calc(100%/3);
+   display: flex;
+   flex-direction: column;
 }
 
 .plan__header {
-
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border: 5px solid #7c8ba1;
 }
 
 .personal {
@@ -539,7 +544,7 @@ align-items: center;
 }
 
 .price {
-
+   
 }
 
 .duration {
@@ -547,7 +552,10 @@ align-items: center;
 }
 
 .plan__features {
-
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border: 5px solid #7c8ba1;
 }
 
 .individuals {
@@ -559,9 +567,12 @@ align-items: center;
 }
 
 .plans__button {
-
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 5px solid #7c8ba1;
 }
 
 .plan__button {
-
+   border-radius: 9999px;
 }
