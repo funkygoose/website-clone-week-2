@@ -474,3 +474,94 @@ justify-content: center;
 }
 
 
+/*
+
+PRICING
+
+*/
+
+.pricing {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.pricing__title {
+ color: #6415FF;
+ font-size: 1rem;
+ padding-bottom: 2rem;
+ text-transform: uppercase;
+ letter-spacing: 0.1rem;
+}
+
+.pricing__subtitle {
+   color: #243E63;
+   font-size: 3.2rem;
+   font-weight: 900;
+
+}
+
+.pricing__para {
+   padding-top: 1.5rem;
+   width: 45%;
+   text-align: center;
+   line-height: 2rem;
+   font-weight: 400;
+   color: #7c8ba1;
+}
+
+.plans {
+
+}
+
+.plan__decor {
+
+}
+
+.plan__1 {
+   
+}
+
+.plan__2 {
+
+}
+
+.plan__3 {
+
+}
+
+.plan__header {
+
+}
+
+.personal {
+
+}
+
+.price {
+
+}
+
+.duration {
+
+}
+
+.plan__features {
+
+}
+
+.individuals {
+
+}
+
+.feature {
+
+}
+
+.plans__button {
+
+}
+
+.plan__button {
+
+}
