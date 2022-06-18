@@ -480,6 +480,7 @@ PRICING
 
 */
 
+
 .pricing {
 display: flex;
 flex-direction: column;
@@ -516,13 +517,16 @@ align-items: center;
    
 
 }
-/*
-.plans {
-   display: flex;
-   flex-wrap: wrap;
-}
-*/
+
 .plan__decor {
+background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+border-top-left-radius: 0.5rem;
+border-top-right-radius: 0.5rem;
+position: absolute;
+top: 0px;
+left: 0px;
+right: 0px;
+height: 0.5rem;
 
 }
 
@@ -536,43 +540,68 @@ align-items: center;
    display: flex;
    flex-direction: column;
    align-items: center;
-   border: 5px solid #7c8ba1;
+   background: #131e2e;
+
 }
 
 .personal {
-
-}
-
-.price {
+   font-size: 1.2rem;
+   font-weight: 600;
+   text-transform: uppercase;
+   padding: 2rem;
    
 }
 
-.duration {
+.price {
+   font-size: 3rem;
+   font-weight: 700;
+}
 
+.duration {
+font-size: 1rem;
+font-weight: 600;
+color: #969696;
+text-transform: uppercase;
+padding: 2rem;
 }
 
 .plan__features {
    display: flex;
    flex-direction: column;
    align-items: center;
-   border: 5px solid #7c8ba1;
+
 }
 
 .individuals {
-
+   padding-top: 2rem;
+   padding-bottom: 1rem;
 }
 
 .feature {
-
+   padding: 1rem;
+   padding-bottom: 2rem;
 }
 
 .plans__button {
-display: flex;
-flex-direction: column;
-align-items: center;
-border: 5px solid #7c8ba1;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 2rem 1rem;
 }
 
 .plan__button {
    border-radius: 9999px;
+   text-transform: uppercase;
+   letter-spacing: 0.05em;
+   font-weight: 700;
+   padding: 1rem 1rem;
+   width: 50%;
+   font-size: 0.875rem;
+   background: rgb(129, 230, 217);
+   color: white;
 }
+
+.solid {
+
+}
+ 
