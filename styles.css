@@ -527,28 +527,74 @@ top: 0px;
 left: 0px;
 right: 0px;
 height: 0.5rem;
+}
 
+.plan__decor--three {
+   background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+
+border-top-left-radius: 0.5rem;
+border-top-right-radius: 0.5rem;
+position: absolute;
+top: 0px;
+left: 0px;
+right: 0px;
+height: 0.5rem;
 }
 
 .plan__one {
    width: calc(100%/3);
    display: flex;
    flex-direction: column;
+   transform: scale(0.9);
+   margin-top: -2rem
+}
+
+.plan__one--half{
+   border-radius: 12px;
+   border: 0px solid #131e2e;
+   box-shadow: 0 20px 80px rgba(0, 0, 0, 0.1);
+}
+
+.plan__two {
+   border-radius: 12px;
+   background-color: #6415ff;
+   box-shadow: 0 20px 80px rgba(0, 0, 0, 0.1);
+   background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.plan__three {
+   border-radius: 12px;
+   border: 0px solid #131e2e;
+   box-shadow: 0 20px 80px rgba(0, 0, 0, 0.1);
 }
 
 .plan__header {
    display: flex;
    flex-direction: column;
    align-items: center;
-   background: #131e2e;
+   background: ;
+}
 
+.plan__header--two {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: ;
+}
+
+.plan__header--three {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: ;
 }
 
 .personal {
-   font-size: 1.2rem;
+   font-size: 1.5rem;
    font-weight: 600;
    text-transform: uppercase;
-   padding: 2rem;
+   padding-top: 3rem;
+   padding-bottom: 1rem;
    
 }
 
@@ -558,28 +604,90 @@ height: 0.5rem;
 }
 
 .duration {
-font-size: 1rem;
+font-size: 1.2rem;
 font-weight: 600;
 color: #969696;
 text-transform: uppercase;
-padding: 2rem;
+padding-top: 1rem;
+ padding-bottom: 3rem;
+letter-spacing: 1px;
+}
+
+.personal__two{
+   font-size: 1.5rem;
+   font-weight: 600;
+   text-transform: uppercase;
+   padding-top: 3rem;
+   padding-bottom: 1rem;
+   color: #fff;
+}
+
+.price__two {
+   font-size: 3rem;
+   font-weight: 700;
+   color: #fff;
+}
+
+.duration__two {
+font-size: 1.2rem;
+font-weight: 600;
+color: #ffffff;
+text-transform: uppercase;
+padding-top: 1rem;
+ padding-bottom: 3rem;
+letter-spacing: 1px;
 }
 
 .plan__features {
    display: flex;
    flex-direction: column;
    align-items: center;
+   padding-bottom: 20px;
+}
+
+.plan__features--two {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 20px;
+
+}
+
+.plan__features--three{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 20px;
 
 }
 
 .individuals {
    padding-top: 2rem;
    padding-bottom: 1rem;
+   font-size: 25px;
+   font-weight: 600;
 }
 
 .feature {
    padding: 1rem;
-   padding-bottom: 2rem;
+   padding-bottom: 1rem;
+   font-size: 18px;
+   color: #969696f8;
+}
+
+.individuals__two {
+   padding-top: 2rem;
+   padding-bottom: 1rem;
+   font-size: 25px;
+   font-weight: 600;
+   color: #ffffff;
+}
+
+.feature__two{
+   padding: 1rem;
+   padding-bottom: 1rem;
+   font-size: 18px;
+   color: rgba(255, 255, 255, 0.856);
 }
 
 .plans__button {
@@ -597,11 +705,44 @@ padding: 2rem;
    padding: 1rem 1rem;
    width: 50%;
    font-size: 0.875rem;
-   background: rgb(129, 230, 217);
-   color: white;
+   background: rgb(87, 218, 200);
+   color: rgb(255, 255, 255);
+   border: none;
 }
 
-.solid {
+.plans__button--two {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 2rem 1rem;
+}
 
+.plan__button--two {
+   border-radius: 9999px;
+   text-transform: uppercase;
+   letter-spacing: 0.05em;
+   font-weight: 700;
+   padding: 1rem 1rem;
+   width: 50%;
+   font-size: 0.875rem;
+   background: #ffffff;
+   color: #6415FF;
+   border: none;
+}
+.plan__button--three {
+   border-radius: 9999px;
+   text-transform: uppercase;
+   letter-spacing: 0.05em;
+   font-weight: 700;
+   padding: 1rem 1rem;
+   width: 50%;
+   font-size: 0.875rem;
+   background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+   color: #ffffff;
+   border: none;
+}
+
+hr.solid{
+   border: 1px solid rgba(207, 207, 207, 0.521);
 }
  
