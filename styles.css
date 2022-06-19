@@ -531,14 +531,13 @@ height: 0.5rem;
 
 .plan__decor--three {
    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
-
-border-top-left-radius: 0.5rem;
-border-top-right-radius: 0.5rem;
-position: absolute;
-top: 0px;
-left: 0px;
-right: 0px;
-height: 0.5rem;
+   border-top-left-radius: 0.5rem;
+   border-top-right-radius: 0.5rem;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+   height: 0.5rem;
 }
 
 .plan__one {
