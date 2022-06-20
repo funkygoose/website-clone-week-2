@@ -751,33 +751,51 @@ hr.solid{
 FOOTER
 
 */
+.row__above {
+   background-color: rgba(100,21,255,1);
+   opacity: ;
+}
 
 .row__footer{
-   width: 100%;
-   max-width: 100%;
-   margin: 0 auto;
-   height: 100%;
-   background-color: rgba(100,21,255,0.45);
+   max-width: 1280px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 6rem 0rem;
+   padding-left: 5rem;
+
 }
 
 .main__links {
    display: flex;
    flex-direction: row;
+   justify-content: center;
+   text-align: left;
+   
 }
 
-.main__link, .product__link, .press__link, .team__link, .team__link, .legal__link {
+.main__link{
    display: flex;
    flex-direction: column;
+   width: 100%;
+   color: #fff;
+   padding: 5rem 2rem;
 }
 
 .main__list, .product__list, .press__list, .team__list, .legal__list {
    display: flex;
    flex-direction: column;
+   padding-bottom: 3rem;
+
+}
+
+.product__login {
+   padding-bottom: 3rem;
 }
 
 .footer__bottom {
    display: flex;
-   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
 }
 
 .footer__imgs {
@@ -785,10 +803,51 @@ FOOTER
    flex-direction: row;
 }
 .footer__media {
-   
+   display: flex;
+   transform: scale(0.7);
+}
+
+.footer__facebook {
+   padding: 1rem;
+   background-color: #fff;
+   border-radius: 9999px;
+   margin-right: 1rem;
+   color: black;
+
+}
+
+.footer__copyright {
+   text-align: center;
+   font-weight: 500;
+   font-size: ;
+}
+
+.footer__facebook svg {
+   width: 1.2rem;
+   height: 1.2rem;
+   vertical-align: middle;
+
 }
 
 .footer__list {
    display: flex;
    flex-direction: row;
+}
+
+.footer__imgs {
+   display: flex;
+   align-items: center;
+}
+
+.footer__img{
+   width: 2rem;
+}
+
+.a {
+   color: inherit;
+}
+
+.main {
+   font-size: 1.2rem;
+   margin-bottom: 1.5rem;
 }
