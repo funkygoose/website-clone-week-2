@@ -7,6 +7,14 @@
    
 }
 
+html {
+   scroll-behavior: smooth;
+}
+
+a{
+   text
+}
+
 p {
    padding-bottom: 45px;
    padding-top: 35px;
@@ -109,9 +117,6 @@ nav {
    text-decoration: underline;
 }
 
-.nav__link--signup:hover{
-   text-decoration: none;
-}
 .nav__link--signup{
    border: 12px solid #6415FF;
    background: #6415FF;
@@ -121,6 +126,17 @@ nav {
    border-bottom-width: 0px;
    border-top-width: 0px;
 }
+.nav__link--signup:hover{
+   text-decoration: none;
+   background: #4404c4;
+   border: 12px solid #4404c4;
+   border-radius: 9999px;
+   color: aliceblue;
+   padding: 0.75rem 1rem;
+   border-bottom-width: 0px;
+   border-top-width: 0px;
+}
+
 
 /* 
 
@@ -806,6 +822,13 @@ FOOTER
 
 .product__login {
    padding-bottom: 1rem;
+   color: white;
+   text-decoration: none;
+}
+
+.product__login:hover {
+   text-decoration: underline;
+   
 }
 
 .footer__bottom {
@@ -879,4 +902,8 @@ FOOTER
    font-size: 16px;
    margin-bottom: 1.5rem;
    text-transform: uppercase;
+}
+
+.no-cursor {
+   cursor: not-allowed;
 }
