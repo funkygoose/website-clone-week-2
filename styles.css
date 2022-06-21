@@ -746,6 +746,11 @@ hr.solid{
    border: 1px solid rgba(207, 207, 207, 0.521);
 }
 
+.divider {
+   border: 0.5px solid rgba(255, 255, 255, 0.521);
+  margin-right: 2.5rem;
+}
+
 /*
 
 FOOTER
@@ -757,11 +762,13 @@ FOOTER
 }
 
 .row__footer{
-   max-width: 1280px;
+   max-width: 1250px;
    margin-left: auto;
    margin-right: auto;
    padding: 6rem 0rem;
-   padding-left: 5rem;
+   padding-left: 2rem;
+   padding
+   
 
 }
 
@@ -770,7 +777,12 @@ FOOTER
    flex-direction: row;
    justify-content: center;
    text-align: left;
-   
+   padding-left: 0px;
+   padding-right: 0px;
+   margin-left: -0.5rem;
+   margin-right: -7rem;
+   font-size: 14px;
+
 }
 
 .main__link{
@@ -778,7 +790,7 @@ FOOTER
    flex-direction: column;
    width: 100%;
    color: #fff;
-   padding: 5rem 2rem;
+   
 }
 
 .main__list, .product__list, .press__list, .team__list, .legal__list {
@@ -788,23 +800,27 @@ FOOTER
 
 }
 
+
 .product__login {
-   padding-bottom: 3rem;
+   padding-bottom: 1rem;
 }
 
 .footer__bottom {
    display: flex;
    align-items: center;
    justify-content: space-between;
+   margin-top: 2rem;
 }
 
 .footer__imgs {
    display: flex;
    flex-direction: row;
+
 }
 .footer__media {
    display: flex;
    transform: scale(0.7);
+   
 }
 
 .footer__facebook {
@@ -819,7 +835,8 @@ FOOTER
 .footer__copyright {
    text-align: center;
    font-weight: 500;
-   font-size: ;
+   color: rgba(255, 255, 255, 0.76);
+   font-size: 1rem;
 }
 
 .footer__facebook svg {
@@ -847,7 +864,16 @@ FOOTER
    color: inherit;
 }
 
+.footer__header {
+   margin-left: 0.5rem;
+   font-size: 1.25rem;
+   font-weight: 900;
+   letter-spacing: 0.05em;
+   color: #fff;
+}
+
 .main {
-   font-size: 1.2rem;
+   font-size: 16px;
    margin-bottom: 1.5rem;
+   text-transform: uppercase;
 }
