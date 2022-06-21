@@ -747,8 +747,9 @@ hr.solid{
 }
 
 .divider {
-   border: 0.5px solid rgba(255, 255, 255, 0.521);
+   border: 0.5px solid rgba(255, 255, 255, 0.158);
   margin-right: 2.5rem;
+  
 }
 
 /*
@@ -758,7 +759,7 @@ FOOTER
 */
 .row__above {
    background-color: rgba(100,21,255,1);
-   opacity: ;
+   padding-top: -50rem;
 }
 
 .row__footer{
@@ -767,7 +768,7 @@ FOOTER
    margin-right: auto;
    padding: 6rem 0rem;
    padding-left: 2rem;
-   padding
+   padding-top: 9rem;
    
 
 }
@@ -782,7 +783,7 @@ FOOTER
    margin-left: -0.5rem;
    margin-right: -7rem;
    font-size: 14px;
-
+   padding-bottom: 0rem;
 }
 
 .main__link{
@@ -809,7 +810,7 @@ FOOTER
    display: flex;
    align-items: center;
    justify-content: space-between;
-   margin-top: 2rem;
+   margin-top: 3rem;
 }
 
 .footer__imgs {
