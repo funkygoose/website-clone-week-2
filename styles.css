@@ -10,14 +10,14 @@
 html {
    scroll-behavior: smooth;
 }
-
+z
 a{
    text
 }
 
 p {
-   padding-bottom: 45px;
-   padding-top: 35px;
+   padding-bottom: 3rem;
+   padding-top: 2rem;
    font-weight: 300;
    font-size: 1.1rem;
    line-height: 1.5rem;
@@ -28,16 +28,16 @@ p {
 h1{
     font-weight: 700;
     color: #131e2e;
-    font-size: 50px;
-    padding-top: 10px;
+    font-size: 3em;
+    padding-top: 1rem;
 
 }
 
 h2 {
    text-transform: uppercase;
    font-weight: 700;
-   padding-top: 90px;
-   padding-bottom: 20px;
+   padding-top: 7em;
+   padding-bottom: 1.5em;
    font-size: 13px;
    color: #969696;   
    opacity: 0.7;
@@ -65,7 +65,8 @@ li {
 }
 
 .logo2 {
-   width: 77%;
+   width: 100%;
+   max-width: 25em;
    opacity: 0.5;
 
 }
@@ -191,6 +192,7 @@ Landing
    margin: 0 auto;
    display: flex;
    flex-direction: row;
+   padding-top: 4em;
    
 }
 
@@ -205,39 +207,39 @@ Landing
    border: solid rgb(231, 231, 231) 1.5px;
    width: fit-content;
    border-radius: 50px;
-   padding:4px;
+   padding:0.2em;
    transform: scale(1.4);
-   margin-left: 60px;
+   margin-left: 4em;
 }
 
 .header__button{
-   border: 15px solid #6415FF;
+   border: 1.5em solid #6415FF;
     background: #6315ff;
     border-radius: 9999px;
     color: aliceblue;
-    padding: 12px 12px;
-    border-bottom-width: 0px;
-    border-top-width: 0px;
+    padding: 1em 1em;
+    border-bottom-width: 0em;
+    border-top-width: 0em;
     font-weight: 700;
     font-size: 0.7rem;
 }
 .header__button:hover {
 
    background: #4500ce;
-   border: 15px solid #4500ce;
+   border: 1.5em solid #4500ce;
    border-radius: 9999px;
    color: aliceblue;
-   padding: 12px 12px;
-   border-bottom-width: 0px;
-   border-top-width: 0px;
+   padding: 1em 1em;
+   border-bottom-width: 0em;
+   border-top-width: 0em;
    font-weight: 700;
    font-size: 0.7rem;
 }
 
 input {
    border:none;
-   padding-left:20px;
-   padding-right: 15px;
+   padding-left:1.5em;
+   padding-right: 0.5em;
    text-decoration: none;
    color: inherit;
 }
@@ -248,13 +250,64 @@ input:focus {
 
 ::placeholder {
    color: rgb(167, 166, 166);
+   font-size: 0.9em;
+   border: none;
+}
+
+.header__container--button{
+   border: solid rgb(231, 231, 231) 1.5px;
+   width: fit-content;
+   border-radius: 50px;
+   padding:0.2em;
+   transform: scale(1.4);
+   margin-left: 4em;
+}
+
+.header__button{
+   border: 1.5em solid #6415FF;
+    background: #6315ff;
+    border-radius: 9999px;
+    color: aliceblue;
+    padding: 1em 1em;
+    border-bottom-width: 0em;
+    border-top-width: 0em;
+    font-weight: 700;
+    font-size: 0.7rem;
+}
+.header__button:hover {
+
+   background: #4500ce;
+   border: 1.5em solid #4500ce;
+   border-radius: 9999px;
+   color: aliceblue;
+   padding: 1em 1em;
+   border-bottom-width: 0em;
+   border-top-width: 0em;
+   font-weight: 700;
    font-size: 0.7rem;
+}
+
+input {
+   border:none;
+   padding-left:1.5em;
+   padding-right: 0.5em;
+   text-decoration: none;
+   color: inherit;
+}
+
+input:focus {
+      outline:none;
+    }
+
+::placeholder {
+   color: rgb(167, 166, 166);
+   font-size: 0.9em;
    border: none;
 }
 
 .header__img--photo {
    width: 100%;
-   padding-top: 90px;
+   padding-top: 5em;
 }
 
 
@@ -276,7 +329,8 @@ figure {
 .row{
    width: 100%;
    max-width: 1250px;
-   padding: 100px 0px;
+   padding-top: 4em;
+   padding-bottom: 4em;
    margin: 0 auto;
 }
 
@@ -288,14 +342,15 @@ figure {
    color: #6415FF;
    font-size: 1rem;
    letter-spacing: 0.1rem;
-   padding-bottom: 14px;
+   display: flex;
+   justify-content: center;;
 }
 
 .section__title--sub {
    
    text-align: center;
-   padding-top: 8px;
-   padding-bottom: 1.5rem; 
+   padding-top: 1rem;
+   padding-bottom: 1rem; 
    text-transform: none;
    font-weight: 900;
    font-size: 3.2rem;
@@ -305,48 +360,55 @@ figure {
 }
 
 .section__para {
-   padding: 0 16rem;
-   font-weight: 400;
-   opacity: calc(0.5);
-   padding-left: 27%;
-   padding-right: 27%;
-   text-align: center;
-   line-height: 150%;
-   transform: scale(1.04);
+   font-size: 1rem;
+   line-height: 1.625 ;
+   font-weight: 500;
+   max-width: 36rem;
    color: #7c8ba1;
    opacity: 1;
+   text-align: center;
+   margin-left: 27%;
+   padding: 1em 0 5em;
+
+}
+
+.services {
+display: flex;
+flex-wrap: wrap;
 }
 
 
 /* 
 
-
+FEATURES
 
 */
 
 
-.features__wrapper {
-   display: flex;
-   flex-wrap: wrap;
-   padding-top: 88px;
-   padding-right: 150px;
-   padding-left: 150px;
-   transform: scale(1.1);
-}
 
-.container {
-   width:calc(100% / 3);
-   display: flex;
-   padding-bottom: 24px;
+.features__wrapper {
+   margin-top: 2.5rem;
+   width: 100%;
    
 }
 
+.container {
+   display: flex;
+   width: calc(100%/3);
+   
+   
+}
+
+.contain {
+   padding: 80px 0;
+    
+}
 
 .features__para {
-   margin-right: 10px;
-   padding-top: 16px;
+   
+   
    line-height: 200%;
-   font-size: 14px;
+   font-size: 1em;
    font-weight: 500;
    opacity: 1;
    color: #7c8ba1;
@@ -358,8 +420,7 @@ figure {
 }
 
 .features__para--container {
-   padding-left: 24px;
-   padding-right: 10px;
+   
    
 }
 
@@ -367,11 +428,15 @@ figure {
    border: 1px solid #d4d4d4;
    border-radius: 9999px;
    flex-shrink: 0;
-   height: 60px;
-   width: 60px;
+   height: 3.8em;
+   width: 3.8em;
+   margin-right: 20px;
+   margin-left: 20px;
    display: flex;
    justify-content: center;
    align-items: center;
+   
+   
    
 }
 
@@ -385,17 +450,16 @@ QUALITY WORK
 .featuredd {
    display: flex;
    flex-direction: row;
-   transform: scale(1.03);  
+   max-width: 1250px;
 }
 
 .quality__img {
    width: 100%;
-   border: 1px solid #7c8ba167;
+   border: 0.1em solid #7c8ba167;
    border-radius: 4px;
    display: flex;
    justify-content: center;
-   align-items: center
-   ;
+   align-items: center;
 }
 
 .quality__header {
@@ -1006,36 +1070,6 @@ FOOTER
 
 /* Small phones, tablets and large smartphones */
 
-@media (max-width: 1080px) {
-   .nav__links {
-      display: none;
-  }
-
-  .header__container {
-     display: flex;
-     flex-direction: column;
-     max-width: 100%;
-     align-items: center;
-  }
-
-  .btn__menu {
-      display: block;
-  }
-.row {
-   display: flex;
-   align-items: center;
-}
-
-@media (max-width: 930px) {
+@media screen {
    
-}
-@media (max-width: 1080px) {
-
-}
-@media (max-width: 1080px) {
-
-}
-@media (max-width: 1080px) {
-
-}
 }
