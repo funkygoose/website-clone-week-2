@@ -1019,7 +1019,9 @@ FOOTER
 
 @media screen and (max-width: 1080px) {
    .container {
-     margin: 1em 2em;
+      width: 100%;
+      max-width: 354px;
+
    }
 
    .header__container {
@@ -1029,6 +1031,11 @@ FOOTER
    }
    .featuredd {
       margin-left: 1rem;
+   }
+
+   .features__para {
+      text-align: left;
+   
    }
 
    .header__container--button {
@@ -1087,8 +1094,12 @@ FOOTER
    }
    
    .services {
-      
+    display: flex;
+    align-content: center;
+    flex-direction: column;
    }
+
+   
 
    .quality__header {
 
