@@ -7,6 +7,9 @@
    
 }
 
+#landing__jr {
+   padding: 2rem;
+}
 html {
    scroll-behavior: smooth;
 }
@@ -73,15 +76,12 @@ li {
 /* NAVAGATION MENU */
 
 nav {
-   height: 80px;
    display: flex;
 }
 
 .nav__container {
    width: 100%;
-   max-width: 1300px;
-   padding: 0 24px;
-   padding-top: 30px;
+   max-width: 1250px;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -479,18 +479,16 @@ STEPS
 }
 
 .steps__img {
-   width: 50%;
-   transform: scale(0.85);
    display: flex;
    justify-content: center;
 }
 
 .steps__outer{
    margin: 0 auto;
-   width: 50%;
    padding-left: 4rem;
-   transform: scale(0.98);
 }
+
+
 
 .steps__inner {
    padding-top: 3rem;
@@ -1019,7 +1017,7 @@ FOOTER
 
 /* Small phones, tablets and large smartphones */
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1080px) {
    .container {
      margin: 1em 2em;
    }
@@ -1090,6 +1088,17 @@ FOOTER
    
    .services {
       
-      
    }
+
+   .quality__header {
+
+   }
+ }
+
+ @media screen and (max-width: 880px) {
+
+ }
+
+ @media screen and (max-width: 680px) {
+
  }
