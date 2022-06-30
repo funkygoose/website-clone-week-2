@@ -13,6 +13,10 @@
 html {
    scroll-behavior: smooth;
 }
+html, body {
+   max-width: 100%;
+   overflow-x: hidden;
+}
 
 a{
    text
@@ -427,6 +431,10 @@ QUALITY WORK
    letter-spacing: 0.1rem;
 }
 
+.quality__container {
+   width: 50%;
+}
+
 .quality__button {
    border: 15px solid #6415FF;
     background: #6415FF;
@@ -587,11 +595,13 @@ PRICING
 
 .pricing__para {
    padding-top: 1.5rem;
-   width: 45%;
-   text-align: center;
-   line-height: 2rem;
-   font-weight: 400;
-   color: #7c8ba1;
+    padding-bottom: 3rem;
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+    line-height: 2rem;
+    font-weight: 400;
+    color: #7c8ba1;
 }
 
 .three__plans{
@@ -1033,7 +1043,7 @@ FOOTER
       justify-content: center;
    }
    .featuredd {
-      margin-left: 1rem;
+      
    }
 
    .features__para {
@@ -1095,14 +1105,6 @@ FOOTER
       margin: 0 auto;
       width: 90%;
    }
-   
-   .services {
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-   }
-
-   
 
    .quality__header {
       
@@ -1113,8 +1115,6 @@ FOOTER
    QUALITY WORK
 
    */
-
-   
 
    .quality__img {
       margin-top: 3rem;
@@ -1154,13 +1154,75 @@ FOOTER
       line-height: 2rem;
    }
 
+   /* 
 
+   Pricing
+
+   */
+
+   .three__plans {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .plan__one {
+      width: 100%;
+    max-width: 450px;
+   }
  }
 
  @media screen and (max-width: 880px) {
 
+   /* 
+   
+   FEATURES
+   
+   */
+   
+   .services {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+   }
  }
 
- @media screen and (max-width: 680px) {
+ .contain {
+    padding: 0;
+ }
 
+ @media screen and (max-width: 780px) {
+
+/*
+
+PRICING
+
+*/
+
+.featuredd {
+   flex-direction: column;
+   align-items: center;
+}
+
+.quality__header {
+   width: 100%;
+   text-align: center;
+   padding-right: 0;
+}
+
+.quality__work {
+   text-align: center;
+   width: 100%;
+}
+
+.quality__container{
+   width: 100%;
+   max-width: 500px;
+}
+
+.quality__paragraph {
+   margin-left: 15%;
+   margin-right: 15%;
+   text-align: center;
+}
  }
