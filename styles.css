@@ -104,6 +104,10 @@ nav {
    
 }
 
+.nav__links {
+
+}
+
 .nav__link {
    margin-left: 16px;
    text-decoration: none;
@@ -142,8 +146,12 @@ nav {
    border-top-width: 0px;
 }
 
-.burger{
+.xmark{
    display: none;
+}
+
+.burger{
+
 }
 
 .burger div {
@@ -153,7 +161,64 @@ nav {
    margin: 5px;
 }
 
+.btn__menu {
+    background-color: transparent;
+    font-size: 40px;
+    text-align: center;
+    border: none;
+    color: #000000;
+    
+}
 
+.menu__backdrop {
+    position: absolute;
+    background-color: #242424;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.menu--open .menu__backdrop {
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu--open {
+    max-width: 100vh;
+    overflow-y: hidden;
+}
+
+.menu__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__list {
+    padding: 32px 0;
+}
+
+.menu__link {
+    font-size: 40px;
+    color: white;
+
+}
+
+.btn__menu--close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    padding: 8px;
+    color: white;
+}
 
 
 /* 
@@ -1080,24 +1145,23 @@ FOOTER
    }
 
    .nav__links{
-      position: absolute;
-      right: 15px;
-      height: 50vh;
-      top: 3vh;
-      font-size: 1.2rem;
-      background-color: #ffffff;
-      border: 1px solid #d4d4d4;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-evenly;
-      width: 94%;
-      border-radius: 7px;
-      
-      transition: transform 0.5s ease-in;
+     display: none;
+   }
+
+   .nav__list {
+
    }
 
    .xmark {
+      width: 100%;
+      position: absolute;
+      text-align: center;
+      padding-left: 26rem;
+      display: block;
+      padding-bottom: 19rem;
+   }
+
+   .xmarkjr{
       max-width: 15px;
       
    }

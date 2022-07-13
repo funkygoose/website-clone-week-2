@@ -6,6 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Treact</title>
    <link rel="stylesheet" href="styles.css">
+   <script src="https://kit.fontawesome.com/e910878891.js" crossorigin="anonymous"></script>
    <script src="index.js"></script>
 </head>
 
@@ -19,34 +20,55 @@
                   <div class="logo__title">Treact</div>
                </a>
                <ul class="nav__links">
-                  <figure>
-                     <svg class="xmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
-                  </figure>
-                  <li>
-                     <a href="#" class="nav__link no-cursor">About</a>
-                  </li>
-                  <li>
-                     <a href="#" class="nav__link no-cursor">Blog</a>
-                  </li>
-                  <li>
-                     <a href="#" class="nav__link no-cursor">Pricing</a>
-                  </li>
-                  <li>
-                     <a href="#" class="nav__link no-cursor">Contact Us</a>
-                  </li>
-                  <li>
-                     <a href="#" class="nav__link nav__link--login no-cursor">Login</a>
-                  </li>
-                  <li>
-                     <a href="#" class="nav__link nav__link--signup no-cursor">Sign Up</a>
-                  </li>
-            </ul>
-            
-            <div class="burger">
-               <div class="line1"></div>
-               <div class="line2"></div>
-               <div class="line3"></div>
-            </div>
+                 
+                     <li>
+                        <a href="#" class="nav__link no-cursor">About</a>
+                     </li>
+                     <li>
+                        <a href="#" class="nav__link no-cursor">Blog</a>
+                     </li>
+                     <li>
+                        <a href="#" class="nav__link no-cursor">Pricing</a>
+                     </li>
+                     <li>
+                        <a href="#" class="nav__link no-cursor">Contact Us</a>
+                     </li>
+                     <li>
+                        <a href="#" class="nav__link nav__link--login no-cursor">Login</a>
+                     </li>
+                     <li>
+                        <a href="#" class="nav__link nav__link--signup no-cursor">Sign Up</a>
+                     </li>
+               </ul>
+
+               <button class="btn__menu" onclick="openMenu()">
+                  <i class="fa-solid fa-bars"></i>
+               </button>
+               <div class="menu__backdrop">
+                  <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                     <i class="fa-solid fa-xmark"></i>
+                  </button>
+                  <ul class="menu__links">
+                     <li class="menu__list">
+                        <a href="#" class="menu__link">About</a>
+                     </li>
+                     <li class="menu__list">
+                        <a href="#" class="menu__link">Blog</a>
+                     </li>
+                     <li class="menu__list">
+                        <a href="#" class="menu__link">Pricing</a>
+                     </li>
+                     <li class="menu__list">
+                        <a href="#" class="menu__link">Contact Us</a>
+                     </li>
+                     <li class="menu__list">
+                        <a href="#" class="menu__link">Login</a>
+                     </li>
+                     <li class="menu__list">
+                        <a href="#" class="menu__link">Sign Up</a>
+                     </li>
+                  </ul>
+               </div>
          </div>  
       </nav>
 
