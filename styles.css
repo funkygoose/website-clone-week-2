@@ -142,6 +142,13 @@ nav {
    border-top-width: 0px;
 }
 
+.burger div {
+   width: 25px;
+   height: 5px;
+   background-color: rgb(58, 58, 58);
+   margin: 5px;
+}
+
 
 
 /* 
@@ -1368,7 +1375,7 @@ PRICING
    }
 
    h1{
-      
+
    }
 
  }
