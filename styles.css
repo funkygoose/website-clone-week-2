@@ -1093,18 +1093,20 @@ FOOTER
       justify-content: space-evenly;
       width: 94%;
       border-radius: 7px;
-      transform: translateX(110%);
+      
+      transition: transform 0.5s ease-in;
    }
 
-   .nav__links li{
-      opacity: 0;
+   .xmark {
+      max-width: 15px;
+      
    }
+
+   
 
    .burger {
-      display: block;
-      cursor: pointer;
+     
    }
-
 
    .nav__link {
       font-size: 1.2rem;
@@ -1254,10 +1256,6 @@ FOOTER
    }
  }
 
- .nav__active{
-   transform: translateX(0%)
-}
-
  @media screen and (max-width: 880px) {
 
    .footer__bottom {
@@ -1267,6 +1265,10 @@ FOOTER
      font-size: 2.9rem;
      line-height: 4rem;
   }
+}
+
+.nav__active{
+   transform: translateX(0%);
 }
 
  @media screen and (max-width: 780px) {
