@@ -163,20 +163,49 @@ nav {
 
 .btn__menu {
     background-color: transparent;
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
     border: none;
-    color: #000000;
+    color: #564f5c;
+    display: none;
     
 }
 
+.btn__signup {
+   border: 1.2em solid #6415FF;
+    background: #6315ff;
+    border-radius: 9999px;
+    color: aliceblue;
+    padding: 1em 1em;
+    border-bottom-width: 0em;
+    border-top-width: 0em;
+    font-weight: 700;
+    font-size: 1.02rem;
+}
+
+.btn__signup:hover {
+   background: #4500ce;
+   border: 1.2em solid #4500ce;
+   border-radius: 9999px;
+   color: aliceblue;
+   padding: 1em 1em;
+   border-bottom-width: 0em;
+   border-top-width: 0em;
+   font-weight: 700;
+   font-size: 1.02rem;
+}
+
+
+
 .menu__backdrop {
     position: absolute;
-    background-color: #242424;
-    top: 0;
-    left:0;
-    right: 0;
-    bottom: 0;
+    background-color: #ffffff;
+    border: 1px solid #bebebe;
+    border-radius: 10px;
+    top: 10px;
+    left:10px;
+    right: 10px;
+    bottom: 10px;
     z-index: 100;
     display: flex;
     justify-content: center;
@@ -194,6 +223,7 @@ nav {
 .menu--open {
     max-width: 100vh;
     overflow-y: hidden;
+    
 }
 
 .menu__links {
@@ -203,21 +233,33 @@ nav {
 }
 
 .menu__list {
-    padding: 32px 0;
+    padding: 20px 0;
 }
 
 .menu__link {
-    font-size: 40px;
-    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
 
+.menu__link:hover {
+   border-bottom: 2px solid;
+   padding-bottom: 10px;
+   color: #6315ff;
+}
+
+.menu__linkk {
+   font-size: 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 .btn__menu--close {
     position: absolute;
-    right: 20px;
-    top: 10px;
+    right: 17px;
+    top: 17px;
     padding: 8px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -1166,7 +1208,9 @@ FOOTER
       
    }
 
-   
+   .btn__menu{
+      display: block;
+   }
 
    .burger {
      
