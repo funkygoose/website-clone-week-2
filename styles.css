@@ -307,8 +307,8 @@ Landing
 
 .header__container--button{
    border: solid rgb(231, 231, 231) 2.5px;
-   width: 102%;
-   max-width: 426px;
+   width: 100%;
+   max-width: 430px;
    border-radius: 9999px;
    padding: 0.3rem;
   
@@ -329,14 +329,14 @@ Landing
 .header__button:hover {
 
    background: #4500ce;
-   border: 1.5em solid #4500ce;
+   border: 1.2em solid #4500ce;
    border-radius: 9999px;
    color: aliceblue;
    padding: 1em 1em;
    border-bottom-width: 0em;
    border-top-width: 0em;
    font-weight: 700;
-   font-size: 0.7rem;
+   font-size: 1.02rem;
 }
 
 
@@ -1232,8 +1232,9 @@ FOOTER
 
    .header__container {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
    }
    .featuredd {
       
@@ -1249,10 +1250,10 @@ FOOTER
    }
 
    .header__container--para {
-      max-width: 60%;
-      text-align: center;
-      width: auto;
-      margin-top: 1rem;
+      width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 1rem;
    }
 
    .header__button {
@@ -1287,6 +1288,11 @@ FOOTER
       padding-top: 1.5rem;
    }
 
+   .figure {
+      width: 100%;
+      
+   }
+      
 
    /* 
    
@@ -1372,6 +1378,11 @@ FOOTER
   .section__title--sub {
      font-size: 2.9rem;
      line-height: 4rem;
+  }
+
+  .figure {
+   width: 100%;
+   
   }
 }
 
