@@ -150,23 +150,15 @@ nav {
    display: none;
 }
 
-.burger{
 
-}
 
-.burger div {
-   width: 25px;
-   height: 3px;
-   background-color: rgb(58, 58, 58);
-   margin: 5px;
-}
 
 .btn__menu {
     background-color: transparent;
-    font-size: 25px;
+    font-size: 1.5em;
     text-align: center;
     border: none;
-    color: #564f5c;
+    color: #070114;
     display: none;
     
 }
@@ -1288,9 +1280,10 @@ FOOTER
       padding-top: 1.5rem;
    }
 
-   .figure {
+   .img__photo {
       width: 100%;
-      
+      max-width: 35em;
+      padding-left: 0;
    }
       
 
