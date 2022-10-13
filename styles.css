@@ -300,7 +300,7 @@ Landing
 .header__container--button{
    border: solid rgb(231, 231, 231) 2.5px;
    width: 100%;
-   max-width: 430px;
+   max-width: 425px;
    border-radius: 9999px;
    padding: 0.3rem;
   
@@ -378,8 +378,8 @@ figure {
 .row{
    width: 100%;
    max-width: 1250px;
-   padding-top: 7em;
-   padding-bottom: 7em;
+   padding-top: 2em;
+   padding-bottom: 2em;
    margin: 0 auto;
 }
 
